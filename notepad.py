@@ -6,7 +6,6 @@ from tkinter import filedialog
 win=Tk()
 win.title("Untitled - Notepad")
 win.geometry("600x300")
-#win.resizable(0,0)
 
 #variables
 file=None
