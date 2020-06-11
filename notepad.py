@@ -27,7 +27,7 @@ class functions():
     def save_file():
         global file
         if file==None:
-            file=filedialog.asksaveasfilename(title="Save As", initialfile="Untitled", defaultextension="*.txt", filetypes=[("Text Files", "*.txt"), ("Python Files", "*.py"), ("Header Files", "*.H")])
+            file=filedialog.asksaveasfilename(title="Save As", initialfile="Untitled", defaultextension="*.txt", filetypes=[("Text Files", "*.txt"), ("Python Files", "*.py")])
             if file=="":
                 file=None
             else:
@@ -42,7 +42,7 @@ class functions():
             
     def open_file():
         global file
-        file=filedialog.askopenfilename(title="Open a File", filetypes=[("Text Files", "*.txt"), ("Python Files", "*.py"), ("Header Files", "*.H")])
+        file=filedialog.askopenfilename(title="Open a File", filetypes=[("Text Files", "*.txt"), ("Python Files", "*.py")])
         if file==None or file=="":
             win.title("Untitled - Notepad")
         else:
