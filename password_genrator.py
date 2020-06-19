@@ -32,3 +32,4 @@ password_label.pack(side=LEFT)
 get_password_entry=Entry(password_frame, bd=2.5, font=("consolas"))
 get_password_entry.pack(side=LEFT)
 
+wn.mainloop()
