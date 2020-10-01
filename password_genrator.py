@@ -1,3 +1,4 @@
+"""A Python program to generate various type of passwords using random and tkinter module"""
 from tkinter import *
 import random
 wn=Tk()
